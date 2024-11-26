@@ -1,0 +1,64 @@
+- role: "system"
+  content: >
+    Always answer a json with two keys answer and explanation.
+    Answer takes values which are either "Yes" or "No".
+    Always output a json.
+    Use the following definition of Hate Speech:
+    language that disparages a person or group on the basis of
+    protected characteristics like race, gender, and cultural identity.
+- role: "user"
+  content: >
+    Do you think this comment is hate speech?
+    Format the answer in the form of a json
+    comment: “space the final frontier these are the
+    voyages of the starship enterprise its five-year
+    mission to explore strange new worlds to seek out
+    new life and new civilizations to boldly go where
+    no man has gone before where no n***ers are
+    invited nor wanted it a n***er free space” 
+    a.Yes 
+    b.No
+- role: "assistant"
+  content: >
+    {"explanation": "This comment is intended to
+    incite hatred against the African American
+    community by using words such as no n***ers
+    and n***er free to them.", 
+    "answer": "Yes"}
+- role: "user"
+  content: >
+    Do you think this comment is hate speech?
+    Format the answer in the form of a json
+    comment: “glad to have you on the team brother god bless”
+    a.Yes
+    b.No
+- role: "assistant"
+  content: >
+    {"explanation": "This comment appears to be a positive
+    and welcoming statement, expressing happiness and goodwill.
+    It uses fraternal language ("brother") and a common religious
+    expression of goodwill (God bless), both of which are typically
+    seen as friendly and inclusive rather than derogatory or harmful.",
+    "answer": "No"}
+- role: "user"
+  content: >
+    Do you think this comment is hate speech?
+    Format the answer in the form of a json
+    comment: “it is emergency : the terrorists plan on killing several
+    hundred million people - see more at :”
+    a.Yes 
+    b.No
+- role: "assistant"
+  content: >
+    {"explanation": "It does not qualify as hate speech primarily because
+    it does not target or disparage a group based on protected characteristics
+    like race, religion, ethnicity, gender, or sexual orientation. Instead,
+    it appears to be a warning or alert about a potential terrorist threat.",
+    "answer": "No"}
+- role: "user"
+  content: >
+    Do you think this comment is hate speech?
+    Format the answer in the form of a json
+    comment:  "{{{text}}}"
+    a. Yes 
+    b. No

@@ -20,6 +20,25 @@ ContextIQ is a multimodal, expert-based video retrieval system designed for cont
 
 ![flowchart](misc/contextual_advertising_end_to_end.png)
 
+## Repository Structure
+Here is a brief overview of the folder structure and files included in this repository:
+```
+.
+├── datasets
+│   ├── condensed_movies        # Contains data split for Condensed Movies dataset
+│   ├── msrvtt                 # Contains data split for MSR-VTT dataset
+│   ├── val-1                  # Released the first validation dataset of movie clips
+│   └── val-2                  # Released the second validation dataset of movie clips
+├── LICENSE                    # License details for the repository
+├── misc
+│   ├── contextiq_extraction.png    # Diagram illustrating feature extraction in ContextIQ
+│   └── contextual_advertising_end_to_end.png # End-to-end system flowchart
+├── README.md                  # This README file
+└── supplementary
+    ├── hatespeech_detection   # Prompt template for hatespeech detection using LLM
+    └── video_action_recognition # Simplifying classes to 185 for the Kinetics-710 dataset
+```
+
 ## Citation
 If you this code in your work, please cite:
 ```

@@ -40,7 +40,7 @@ Here is a brief overview of the folder structure and files included in this repo
 ```
 
 ## Citation
-If you use this dataset or code in your work, please cite:
+If you use this dataset in your work, please cite:
 ```
 @misc{chaubey2024contextiqmultimodalexpertbasedvideo,
       title={ContextIQ: A Multimodal Expert-Based Video Retrieval System for Contextual Advertising}, 
@@ -54,6 +54,6 @@ If you use this dataset or code in your work, please cite:
 ```
 
 ### License
-The code for this work is licensed under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0).
+This provided dataset is licensed under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0).
 
-See [LICENSE](LICENSE) for more details on the code license.
+See [LICENSE](LICENSE) for more details.

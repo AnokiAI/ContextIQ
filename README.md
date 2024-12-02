@@ -40,7 +40,7 @@ Here is a brief overview of the folder structure and files included in this repo
 ```
 
 ## Citation
-If you this code in your work, please cite:
+If you use this dataset or code in your work, please cite:
 ```
 @misc{chaubey2024contextiqmultimodalexpertbasedvideo,
       title={ContextIQ: A Multimodal Expert-Based Video Retrieval System for Contextual Advertising}, 

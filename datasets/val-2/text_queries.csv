@@ -1,0 +1,35 @@
+Query Prompt,Video,Metadata,Caption,Audio
+scenes with a necklace,TRUE,TRUE,FALSE,FALSE
+scenes with a fan,TRUE,TRUE,FALSE,FALSE
+scenes with a refrigerator,TRUE,TRUE,FALSE,FALSE
+scenes with a mirror,TRUE,TRUE,FALSE,FALSE
+scenes with a pickup truck,TRUE,TRUE,FALSE,FALSE
+scenes with a basketball,TRUE,TRUE,FALSE,FALSE
+scenes with a cake,TRUE,TRUE,FALSE,FALSE
+scenes with golf course,TRUE,TRUE,FALSE,FALSE
+scenes with playground,TRUE,TRUE,FALSE,FALSE
+scenes with windmill,TRUE,TRUE,FALSE,FALSE
+scenes with swimming pool,TRUE,TRUE,FALSE,FALSE
+scenes with beach,TRUE,TRUE,FALSE,FALSE
+scenes with driveway,TRUE,TRUE,FALSE,FALSE
+scenes with pasture,TRUE,TRUE,FALSE,FALSE
+woman speaking,TRUE,FALSE,FALSE,TRUE
+scenes with a wine glass,TRUE,TRUE,TRUE,FALSE
+scenes with a bed,TRUE,TRUE,TRUE,FALSE
+scenes with a toilet,TRUE,TRUE,TRUE,FALSE
+scenes with california,TRUE,TRUE,TRUE,FALSE
+scenes with jesus christ,TRUE,TRUE,TRUE,FALSE
+scenes with new york,TRUE,TRUE,TRUE,FALSE
+scenes with america,TRUE,TRUE,TRUE,FALSE
+scenes with religion,TRUE,TRUE,TRUE,FALSE
+scenes with paris/france,TRUE,TRUE,TRUE,FALSE
+scenes with china,TRUE,TRUE,TRUE,FALSE
+scenes with a dad/father,TRUE,TRUE,TRUE,FALSE
+scenes with a mom/mother,TRUE,TRUE,TRUE,FALSE
+"gunshot, gunfire, machine gun, cap gun",TRUE,FALSE,TRUE,TRUE
+musical instrument,TRUE,TRUE,TRUE,TRUE
+singing,TRUE,FALSE,TRUE,TRUE
+shouting/screaming,TRUE,FALSE,TRUE,TRUE
+crying/sobbing,TRUE,FALSE,TRUE,TRUE
+clapping/cheering/applause,TRUE,FALSE,TRUE,TRUE
+Bird,TRUE,TRUE,TRUE,TRUE
